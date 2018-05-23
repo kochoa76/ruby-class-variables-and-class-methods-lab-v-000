@@ -10,11 +10,11 @@ class Song
   end 
   
   def self.genres 
-    @@genres<< @genres.uniq 
+    @@genres<< @genre.uniq 
   end 
 
   def self.artists 
-    @@artists << @artists.uniq 
+    @@artists << @artist.uniq 
   end 
   
   def initialize(name, artist, genre)
