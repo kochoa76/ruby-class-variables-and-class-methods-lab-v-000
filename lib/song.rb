@@ -12,9 +12,9 @@ class Song
     @@genres << song_genre.uniq 
   end 
 
-def self.artists 
-  @@artists = []
-  @@artists << 
+  def self.artists 
+    @@artists = []
+    @@artists << song_artist.uniq 
   end 
   
   def initialize(song_name, song_artist, song_genre)
