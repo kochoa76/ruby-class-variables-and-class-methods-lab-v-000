@@ -26,6 +26,8 @@ def self.artists
     @song_artist= song_artist 
     @song_genre= song_genre 
     @@count += 1 
+    @@genres 
+    @@artists 
   end 
   
   
