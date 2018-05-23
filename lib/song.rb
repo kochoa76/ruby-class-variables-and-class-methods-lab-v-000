@@ -15,6 +15,10 @@ class Song
     @song_genre 
   end 
 end 
+
+def self.artists 
+  @@artists = []
+  @@artists << 
     
   
   def initialize(song_name, song_artist, song_genre)
