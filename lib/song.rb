@@ -10,7 +10,7 @@ class Song
   end 
   
   def self.genres 
-    @@genres.uniq 
+    @@genres << @@genres.uniq 
   end 
 
   def self.artists 
