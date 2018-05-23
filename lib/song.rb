@@ -10,6 +10,11 @@ class Song
   def self.genres 
     existing_songs = []
     existing_songs << if @song_name.include?(song_name) 
+    delete 
+  else 
+    @song_name 
+  end 
+end 
     
   
   def initialize(song_name, song_artist, song_genre)
