@@ -9,12 +9,8 @@ class Song
   
   def self.genres 
     @@genres = []
-    @@genres << if @song_genre.include?(@song_genre) 
-    delete 
-  else 
-    @song_genre 
+    @@genres << song_genre.uniq 
   end 
-end 
 
 def self.artists 
   @@artists = []
