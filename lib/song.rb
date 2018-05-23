@@ -8,11 +8,11 @@ class Song
   end 
   
   def self.genres 
-    existing_songs = []
-    existing_songs << if @song_name.include?(song_name) 
+    @@genres = []
+    @@genres << if @song_genre.include?(@song_genre) 
     delete 
   else 
-    @song_name 
+    @song_genre 
   end 
 end 
     
